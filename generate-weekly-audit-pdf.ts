@@ -60,6 +60,11 @@ export const generateAuditReportPdf = (
             font-size: 14px;
             text-align: justify;
         }
+        .weekly-audit {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
         .qa-section {
             margin-top: 15px;
             border: 1px solid #ddd;
@@ -118,6 +123,16 @@ export const generateAuditReportPdf = (
             <div class="section-content">
                 We have clear responsibilities, roles, systems of accountability...
             </div>
+        </div>
+         <div class="weekly-audit">
+            <div class="section-title">Weekly CD Audit</div>
+            <ul>
+                <li>The weekly stock check should take place on the same day each week...</li>
+                <li>The check should be initialed as compliant...</li>
+                <li>Where possible, errors should be corrected...</li>
+                <li>Remedial actions should be recorded...</li>
+                <li>Checks should be performed by verifying the balance...</li>
+            </ul>
         </div>
 
         <div class="qa-section">
